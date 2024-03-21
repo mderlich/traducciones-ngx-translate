@@ -8,6 +8,7 @@ ngx-translate es una librería muy popular en el ecosistema de Angular que se ut
 
 ref video
 https://www.youtube.com/watch?v=vSwYuyH4kMA
+
 https://github.com/mderlich/traducciones-ngx-translate
 
 
