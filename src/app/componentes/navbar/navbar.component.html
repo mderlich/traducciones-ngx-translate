@@ -1,0 +1,24 @@
+<style>
+    h1 {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<div class="container">
+
+    <h1>navbar works!</h1>
+
+    <select name="" id="" (click)="ChangeLang($event)">
+        <option [selected]="lang==='en'" value="en">English</option>
+        <option [selected]="lang==='es'" value="es">Spanish</option>
+    </select>
+</div>
+<p>
+    language Storage: {{ langS ? langS : '----' }}
+    <br>
+    language Navigator: {{ langN }}
+</p>
